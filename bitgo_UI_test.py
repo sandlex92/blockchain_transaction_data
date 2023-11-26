@@ -28,6 +28,6 @@ def test_txnHashFinder():
         findHash(i)
         assert counter == 7
       except: 
-       print(f"Error ocurred at {i}")
+       print(f"Error at {i}")
        continue
 
